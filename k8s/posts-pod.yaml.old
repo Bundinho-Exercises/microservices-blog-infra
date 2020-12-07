@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: posts
+spec:
+  containers:
+    - name: posts
+      image: bundinho.blog/posts:0.0.1
+      imagePullPolicy: never
+      
